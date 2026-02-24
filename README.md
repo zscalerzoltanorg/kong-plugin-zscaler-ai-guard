@@ -6,6 +6,14 @@ This plugin is designed for Kong Gateway HTTP traffic (not stream/TCP plugins).
 
 Repository: `https://github.com/zscalerzoltanorg/kong-plugin-zscaler-ai-guard`
 
+## Project Status / Disclaimer
+
+This is an unofficial community plugin and is not an official Zscaler product or a supported Zscaler release.
+
+It was built as a practical starting point/reference implementation for integrating Kong Gateway with Zscaler AI Guard. Review, test, and adapt it for your environment before production use.
+
+For questions, issues, or improvements, use GitHub Issues in this repository (no personal contact information required).
+
 ## What This Plugin Does
 
 - Scans inbound request content (`IN`) before proxying upstream
@@ -323,6 +331,10 @@ This plugin can be distributed by:
 - Internal artifact repository or image-based packaging
 
 For most custom plugins, you host and distribute it yourself; Kong Plugin Hub listing is typically not the path for independent custom plugins unless you are in Kong's partner ecosystem.
+
+## License
+
+Apache-2.0. See `LICENSE`.
 
 ## Quick Start (Recommended Path)
 
