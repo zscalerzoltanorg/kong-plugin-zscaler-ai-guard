@@ -1,0 +1,7 @@
+.DS_Store
+*.bak
+
+# Local certs / local-only test assets
+konnect-certs/
+kong-custom-plugins/
+
