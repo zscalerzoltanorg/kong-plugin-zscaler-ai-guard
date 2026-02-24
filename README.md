@@ -108,6 +108,10 @@ This is usually easier to operate than host mounts in production.
 
 This repo includes a rockspec file so users can install the plugin with LuaRocks.
 
+The rockspec file in this repository is:
+`kong-plugin-zscaler-ai-guard-0.2.0-1.rockspec`
+(this is the LuaRocks package manifest for this plugin).
+
 From the plugin root:
 
 ```bash
