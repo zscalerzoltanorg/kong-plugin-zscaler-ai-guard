@@ -4,6 +4,8 @@ Custom Kong HTTP plugin that sends request/response AI content to Zscaler AI Gua
 
 This plugin is designed for Kong Gateway HTTP traffic (not stream/TCP plugins).
 
+Repository: `https://github.com/zscalerzoltanorg/kong-plugin-zscaler-ai-guard`
+
 ## What This Plugin Does
 
 - Scans inbound request content (`IN`) before proxying upstream
